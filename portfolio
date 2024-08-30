@@ -1,0 +1,201 @@
+<!-- 
+    Project: Raihana Farhath's Portfolio
+    Author: Raihana Farhath
+    Date: 2024-07-27
+    Description: This is the HTML code for Raihana Farhath's online portfolio, showcasing her skills, 
+                 internships, projects, and contact information. The portfolio includes sections 
+                 about her background, details on her internships and projects, and ways to get in touch 
+                 via LinkedIn and email.
+    
+    Internships:
+        1. Web Development: Designed and built web applications, improved user interfaces, resolved technical issues.
+        2. Campus Ambassador: Promoted events and initiatives, coordinated marketing efforts, organized informational sessions.
+        3. Data Science: Analyzed and interpreted datasets, supported decision-making, contributed to reports and recommendations.
+        4. Python Programming: Developed and maintained software solutions, optimized performance, implemented new features.
+        5. Artificial Intelligence: Developed and trained machine learning models, implemented algorithms, deployed AI solutions.
+
+    Projects:
+        - Website: Designed and developed a website with a focus on user experience, functionality, responsive design, 
+                   interactive features, and cross-browser compatibility.
+                   [Link to Project: https://humburger.tiiny.site]
+
+    Contact:
+        - LinkedIn: https://www.linkedin.com/in/raihana-farhath-j-347303258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+        - Email: raihanafarhath@gmail.com
+    
+    Dependencies: 
+        - styles.css: External stylesheet for custom styles.
+        - Google Fonts: Pacifico and Roboto fonts.
+        - Font Awesome: For social media and email icons.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raihana Farhath's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    animation: backgroundAnimation 10s infinite alternate;
+}
+
+header {
+    padding: 50px 0;
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    color: white;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    color: #000000;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+.profile-pic {
+    width: auto;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+
+section h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    color: #700745;
+    margin-bottom: 20px;
+}
+
+.internship, .project {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+}
+
+.contact-icons a {
+    font-size: 2em;
+    color: #ff6f61;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.contact-icons a:hover {
+    color: #333;
+}
+
+footer {
+    padding: 20px 0;
+    background: #333;
+    color: white;
+}
+
+@keyframes backgroundAnimation {
+    0% { background: linear-gradient(120deg, #e691cc 0%, #e7acf1 100%); }
+    100% { background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); }
+}
+
+</style>
+<body>
+    <header>
+        <h1>Raihana Farhath</h1>
+        <p style="color:black">Welcome to my Portfolio!</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="reenu.jpeg" alt="Raihana Farhath" class="profile-pic">       
+         <p>In my pre-final year of IT studies, I've worked on various projects and internships,
+           gaining practical experience in software development, cybersecurity, and data analysis.
+            My portfolio demonstrates my ability to create web applications, improve security measures, 
+            and analyze data effectively. With a strong foundation in key technologies and a commitment to continuous learning,
+           I bring valuable skills and a proactive approach to problem-solving and teamwork.</p>
+    </section>
+
+    <section id="internships">
+        <h2>Internships</h2>
+        <div class="internship">
+            <h3>Web Development</h3>
+            <p>In my web development internship, I helped design and build web applications,
+               working with both front-end and back-end technologies.
+                I improved user interfaces and resolved technical issues,
+                 gaining valuable experience in coding and teamwork.
+               This role sharpened my skills and deepened my understanding of web development</p>
+        </div>
+        <div class="internship">
+            <h3>Campus Ambassador</h3>
+            <p>As a campus ambassador, I promoted our organization’s events and initiatives on campus, 
+              engaging with students and boosting participation. I coordinated marketing efforts and
+               organized informational sessions, enhancing visibility and outreach. 
+              This role developed my communication skills and ability to manage promotional activities effectively.</p>
+        </div>
+        <div class="internship">
+          <h3>Data Science</h3>
+          <p>During my data science internship, I analyzed and interpreted complex datasets to support 
+            decision-making and drive insights. I utilized tools and techniques for data cleaning, 
+            visualization, and statistical analysis, contributing to meaningful reports and recommendations. This
+             experience refined my analytical skills and provided hands-on experience with data science methodologies.</p>
+      </div>
+      <div class="internship">
+        <h3>Python Programming</h3>
+        <p>In my Python programming internship, I developed and maintained software solutions using Python, 
+          focusing on writing clean, efficient code. I collaborated with a team to solve technical problems,
+           optimize performance, and implement new features. This role
+           enhanced my programming skills and provided practical experience in applying Python to real-world projects.</p>
+    </div>
+    <div class="internship">
+      <h3>Artificial Intelligence</h3>
+      <p>During my AI internship, I worked on developing and training machine learning models to solve 
+        complex problems and improve predictions. I implemented algorithms, analyzed data, and contributed
+         to the deployment of AI solutions in real-world applications. This experience deepened my
+         understanding of artificial intelligence and honed my skills in model development and data analysis.</p>
+  </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Website</h3>
+            <p>For this project, I designed and developed a website from scratch
+              , focusing on both user experience and functionality. I implemented responsive design, 
+              integrated interactive features, and ensured cross-browser compatibility. The project allowed 
+              me to apply my skills in web development and create a fully functional, user-friendly site.</p>
+              <a href="https://humburger.tiiny.site">Click here to view my website</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me through LinkedIn or email!</p>
+        <div class="contact-icons">
+            <a href="https://www.linkedin.com/in/raihana-farhath-j-347303258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+             target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:raihanafarhath@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Raihana Farhath</p>
+    </footer>
+</body>
+</html>
